@@ -10,6 +10,10 @@ La regla corregida por el usuario es:
 
 `YA_NO_DEBE_SER_GATEADA_ES_GOBERNADA`
 
+Runtime TGE vigente:
+
+`TGE_RUNTIME_APPROVED_GOVERNED_ACTIVE_20260530`
+
 ## Alcance
 
 TGE gobierna este repo como laboratorio privado para:
@@ -41,3 +45,18 @@ Evitar presentar este repo como bloqueado por defecto. El control vigente no es 
 - Cabina rectora: `TORRE_GEMELA_ESCRIBANIA`.
 - Publicacion inicial: `2026-05-30`.
 
+## SharePoint aprobado
+
+Sitio piloto primero:
+
+`https://escribaniabitsch.sharepoint.com/sites/SYS-GobiernoOperativo-PILOTO`
+
+Sitio secundario aprobado:
+
+`https://escribaniabitsch.sharepoint.com/sites/Soporte-Gobierno-Sistema-Declarativo-Torre-Control`
+
+## Cadena de agentes
+
+`SDU-CN canonico -> cdf.project_manager_delegador -> cdf.prompt_router -> prompt pack/receta -> agente asignado -> contraparte SDU-CN -> cdf.evidence_validator -> GitHub canon -> SharePoint piloto cuando aplique`.
+
+El laboratorio hereda la regla de TGE: siempre usar el agente de prompts y recetas antes de asignar trabajo.
