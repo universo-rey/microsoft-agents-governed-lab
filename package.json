@@ -10,6 +10,6 @@
         "@microsoft/m365agentsplayground": "^0.2.27",
         "eslint": "^9.39.4",
         "neostandard": "^0.13.0",
-        "typescript-eslint": "^8.37.0"
+        "typescript-eslint": "^8.60.1"
     }
 }
