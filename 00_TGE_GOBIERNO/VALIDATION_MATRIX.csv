@@ -1,0 +1,5 @@
+artifact_id,path,owner_agent,validator,evidence,stop_condition
+lab_governance_files,AGENTS.md|00_TGE_GOBIERNO/*.md,universe.escribania_tower,00_TGE_GOBIERNO/tools/Validate-GovernedLab.ps1,08_READBACKS,governed_lab_file_missing
+lab_upstream_remote,git remotes origin/upstream,universe.escribania_tower,00_TGE_GOBIERNO/tools/Validate-GovernedLab.ps1 -RequireConfiguredUpstream,remote_mismatch_or_upstream_push_enabled,upstream_push_enabled
+lab_upstream_compare,origin/main...upstream/main,universe.escribania_tower,00_TGE_GOBIERNO/tools/Compare-UpstreamMain.ps1,08_READBACKS/upstream_compare_latest.json,upstream_merge_without_readback
+lab_ci_validation,.github/workflows/tge-governed-lab-validation.yml,universe.escribania_tower,GitHub Actions,PR checks,workflow_permissions_too_broad

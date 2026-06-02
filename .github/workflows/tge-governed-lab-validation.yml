@@ -1,0 +1,21 @@
+name: TGE governed lab validation
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate-governance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate governed lab files
+        shell: pwsh
+        run: ./00_TGE_GOBIERNO/tools/Validate-GovernedLab.ps1

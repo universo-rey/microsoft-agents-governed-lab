@@ -2,6 +2,7 @@
     "type": "module",
     "scripts": {
         "lint": "eslint",
+        "validate-governance": "pwsh -NoProfile -File ./00_TGE_GOBIERNO/tools/Validate-GovernedLab.ps1",
         "validate-plugin": "claude plugin validate ."
     },
     "devDependencies": {
