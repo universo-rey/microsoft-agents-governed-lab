@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "mode": "FETCH_AND_COMPARE_NO_MERGE",
+  "repo_root": "D:\\10_UNIVERSOS\\ESCRIBANIA\\10_REPOS\\02_ACTIVE\\microsoft-agents-governed-lab",
+  "origin": "https://github.com/universo-rey/microsoft-agents-governed-lab.git",
+  "upstream": "https://github.com/microsoft/Agents.git",
+  "upstream_push": "DISABLED",
+  "origin_main": "ba27bd0929d739c675f9b89153b3035a5545aac6",
+  "upstream_main": "aa591cf49419c8839a5decaf6dc8c0cf2cf76763",
+  "origin_only_commits": 2,
+  "upstream_only_commits": 2,
+  "changed_path_count": 4,
+  "changed_paths_sample": [
+    "M\tsamples/dotnet/Agent Framework/AgentFrameworkWeather.csproj",
+    "M\tsamples/dotnet/RetrievalBot/RetrievalBot.csproj",
+    "M\tsamples/dotnet/RetrievalBot/dotnet/tests/Microsoft.Agents.M365Copilot.Beta.Tests/Microsoft.Agents.M365Copilot.Beta.Tests.csproj",
+    "M\tsamples/dotnet/semantic-kernel-multiturn/SemanticKernelMultiturn.csproj"
+  ],
+  "stat": [
+    " samples/dotnet/Agent Framework/AgentFrameworkWeather.csproj         | 2 +-",
+    " samples/dotnet/RetrievalBot/RetrievalBot.csproj                     | 4 ++--",
+    " .../Microsoft.Agents.M365Copilot.Beta.Tests.csproj                  | 2 +-",
+    " .../dotnet/semantic-kernel-multiturn/SemanticKernelMultiturn.csproj | 6 +++---",
+    " 4 files changed, 7 insertions(+), 7 deletions(-)"
+  ],
+  "blocked_actions": [
+    "merge",
+    "rebase",
+    "push_to_upstream",
+    "microsoft_live",
+    "tenant_write",
+    "production"
+  ]
+}

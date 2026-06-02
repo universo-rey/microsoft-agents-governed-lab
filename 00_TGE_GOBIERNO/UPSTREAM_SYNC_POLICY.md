@@ -19,6 +19,13 @@ Este repo conserva relacion con `microsoft/Agents` sin perder gobierno TGE.
 4. Registrar decision o readback si la actualizacion cambia superficie relevante.
 5. Publicar a `origin` solo luego de validacion local razonable.
 
+## Comparacion controlada
+
+Usar `00_TGE_GOBIERNO/tools/Compare-UpstreamMain.ps1 -Fetch` para comparar
+`origin/main` contra `upstream/main` sin mergear, rebasear ni escribir en el
+repo oficial. La salida puede guardarse como evidencia JSON saneada bajo
+`08_READBACKS`.
+
 ## No hacer
 
 - No sobrescribir gobierno TGE al sincronizar upstream.

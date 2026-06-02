@@ -60,3 +60,13 @@ Sitio secundario aprobado:
 `SDU-CN canonico -> cdf.project_manager_delegador -> cdf.prompt_router -> prompt pack/receta -> agente asignado -> contraparte SDU-CN -> cdf.evidence_validator -> GitHub canon -> SharePoint piloto cuando aplique`.
 
 El laboratorio hereda la regla de TGE: siempre usar el agente de prompts y recetas antes de asignar trabajo.
+
+## Validacion repo-nativa
+
+El lab usa validadores locales versionados bajo `00_TGE_GOBIERNO/tools`:
+
+- `Validate-GovernedLab.ps1`: valida archivos rectores, frontera, remotos y workflow de gobierno.
+- `Compare-UpstreamMain.ps1`: compara `origin/main` contra `upstream/main` sin merge, rebase ni push.
+
+El workflow `.github/workflows/tge-governed-lab-validation.yml` ejecuta la
+validacion de gobierno con permisos `contents: read`.
