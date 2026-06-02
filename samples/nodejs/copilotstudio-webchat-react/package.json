@@ -16,11 +16,11 @@
     "@microsoft/agents-copilotstudio-client": "^1.5.3",
     "botframework-webchat": "4.19.0",
     "botframework-webchat-fluent-theme": "4.19.0",
-    "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
-    "@types/react": "19.2.15",
+    "@types/react": "19.2.16",
     "@types/react-dom": "19.2.3",
     "esbuild": "^0.28.0"
   }
