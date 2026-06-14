@@ -44,7 +44,7 @@ Interpretacion vigente:
 - Leer antes de escribir.
 - Mantener `upstream` apuntando a `https://github.com/microsoft/Agents.git`.
 - Mantener `origin` apuntando a `https://github.com/universo-rey/microsoft-agents-governed-lab.git`.
-- Registrar cambios de gobierno o pruebas bajo `00_TGE_GOBIERNO/` y `08_READBACKS/`.
+- Registrar cambios de gobierno o pruebas bajo `00_TGE_GOBIERNO/` y `08_READBACKS/`; para el delta 2026-06-14 usar `08_READBACKS/READBACK_GOVERNED_DELTA_EXECUTION_CANON_20260614.md`.
 - No persistir secretos, tokens, claves, cookies, dumps ni credenciales.
 - No usar datos regulados reales dentro del repo.
 - No ejecutar acciones live de Microsoft 365, tenant, SharePoint, Power Platform, Outlook, Teams, Calendar, OneDrive o Windows 365 desde este repo sin orden gobernada explicita.
@@ -52,6 +52,8 @@ Interpretacion vigente:
 - No confundir este repo con el runtime productivo de Escribania.
 - No declarar readiness productiva si solo existe readiness documental o de laboratorio.
 - Respetar autoridad canonica SDU-CN por encima de CDF staff, agentes SDK, conectores, tools, plugins y automatizaciones.
+- Operar por deltas gobernados: si TGE declara frontera live gobernada, no bloquear carriles concretos por preparacion base cuando existan target, owner, rollback, postcheck y evidencia.
+- Tratar SharePoint como superficie completa gobernada. `PILOTO` puede existir como nombre historico de sitio/carril/evidencia, pero no como limite activo del alcance SharePoint.
 
 ## Autoridad canonica SDU-CN
 
@@ -80,7 +82,7 @@ Los demas agentes operan en la torre o en este laboratorio cuando tienen asignac
 
 ## Cadena end-to-end
 
-`SDU-CN canonico -> cdf.project_manager_delegador -> cdf.prompt_router -> prompt pack/receta -> agente asignado -> contraparte SDU-CN -> cdf.evidence_validator -> GitHub canon -> SharePoint piloto cuando aplique`.
+`SDU-CN canonico -> cdf.project_manager_delegador -> cdf.prompt_router -> prompt pack/receta -> agente asignado -> contraparte SDU-CN -> cdf.evidence_validator -> GitHub canon -> SharePoint superficie gobernada cuando aplique`.
 
 `cdf.prompt_router` es obligatorio para preparar prompts y recetas antes de asignar agentes.
 

@@ -47,7 +47,7 @@ Evitar presentar este repo como bloqueado por defecto. El control vigente no es 
 
 ## SharePoint aprobado
 
-Sitio piloto primero:
+Sitio aprobado de nombre historico primero:
 
 `https://escribaniabitsch.sharepoint.com/sites/SYS-GobiernoOperativo-PILOTO`
 
@@ -57,7 +57,7 @@ Sitio secundario aprobado:
 
 ## Cadena de agentes
 
-`SDU-CN canonico -> cdf.project_manager_delegador -> cdf.prompt_router -> prompt pack/receta -> agente asignado -> contraparte SDU-CN -> cdf.evidence_validator -> GitHub canon -> SharePoint piloto cuando aplique`.
+`SDU-CN canonico -> cdf.project_manager_delegador -> cdf.prompt_router -> prompt pack/receta -> agente asignado -> contraparte SDU-CN -> cdf.evidence_validator -> GitHub canon -> SharePoint superficie gobernada cuando aplique`.
 
 El laboratorio hereda la regla de TGE: siempre usar el agente de prompts y recetas antes de asignar trabajo.
 
