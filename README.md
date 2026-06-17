@@ -1,5 +1,13 @@
 # Microsoft 365 Agents SDK
 
+## Lane Atomica
+
+Este repo entra en la Lane B de la wave atomica de repositorios como hub de
+Agents SDK y patrones de ejecucion. El packet coordinador vive fuera del repo,
+en `C:\Users\enzo1\PROJEC CDX\operativa\WAVE_ATOMICA_REPOS_20260616.md`.
+El retorno exacto de esta lane debe seguir quedando en esta entrada visible y
+en los samples, sin abrir runtime innecesario ni mezclarlo con otros repos.
+
 With the Microsoft 365 Agents SDK, you can create agents deployable to channels of your choice, such as Microsoft 365 Copilot, Microsoft Teams, Web & Custom Apps and more, with scaffolding to handle the required communication. Developers can use the AI Services of their choice, and make the agents they build available using the channel management capabilities of the SDK.
 
 Developers need the flexibility to integrate agents from any provider or technology stack into their enterprise systems. The Agents SDK simplifies the implementation of agentic patterns using the AI of their choice, allowing them to select one or more services, models, or agents to meet their specific requirements.
