@@ -12,16 +12,16 @@
     "start": "npm run build -- --watch --serve=localhost:3000 --servedir=./public"
   },
   "dependencies": {
-    "@azure/msal-browser": "^5.11.0",
-    "@microsoft/agents-copilotstudio-client": "^1.5.3",
-    "botframework-webchat": "4.19.0",
-    "botframework-webchat-fluent-theme": "4.19.0",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "@azure/msal-browser": "^5.17.3",
+    "@microsoft/agents-copilotstudio-client": "^1.7.1",
+    "botframework-webchat": "4.19.1",
+    "botframework-webchat-fluent-theme": "4.19.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@types/react": "19.2.16",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
-    "esbuild": "^0.28.0"
+    "esbuild": "^0.28.1"
   }
 }
