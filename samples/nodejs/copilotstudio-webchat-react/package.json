@@ -12,8 +12,8 @@
     "start": "npm run build -- --watch --serve=localhost:3000 --servedir=./public"
   },
   "dependencies": {
-    "@azure/msal-browser": "^5.19.0",
-    "@microsoft/agents-copilotstudio-client": "^1.7.2",
+    "@azure/msal-browser": "^5.20.0",
+    "@microsoft/agents-copilotstudio-client": "^1.8.1",
     "botframework-webchat": "4.19.1",
     "botframework-webchat-fluent-theme": "4.19.1",
     "react": "19.2.8",
